@@ -1,0 +1,143 @@
+body {
+	font-family: "verdana", "arial";
+	background: #f39b54;
+	background-attachment: fixed;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#global {
+	padding: 20px;
+	margin: 40px auto 30px;
+	background: #fbe1cc;
+	border: 2px solid #777;
+	box-shadow: 1px 1px #999;
+	border-radius: 8px;
+	height: 80%;
+	width: 70%;
+}
+
+#logo {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background: rgb(87, 131, 235, 0.35);
+	margin: 15px 20px;
+	padding: 15px 0px;
+	width: 615px;
+}
+
+#logo img {
+	margin-left: 25px;
+	height: 120px;
+}
+
+#nav-bar {
+	background: rgb(87, 131, 235, 0.35);
+	margin: 0px 20px;
+}
+
+#logo, #nav-bar {
+	border-radius: 2px;
+}
+
+#nav-bar ul {
+	padding: 0px 25px;
+}
+
+#nav-bar ul li {
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;	
+	display: block;
+	transition: all 250ms;
+}
+
+#nav-bar ul li:hover {
+	background: rgb(87, 131, 235, 0.5);
+}
+
+#nav-bar a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 12px 12px;
+}
+
+#content {
+	margin: 0px 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+#content aside {
+	float: right;
+	width: 25%;
+	padding-top: 25px;
+}
+
+#principal {
+	float: left;
+	width: 70%;
+}
+
+#cabecario_ficha_técnica * {
+	margin: 15px;
+}
+
+#imagem_produto img {
+	float: left;
+	margin-top: 0px;
+	height: 180px;
+}
+
+#ref * {
+	float: left;
+}
+
+#search-ref-form {
+	padding: 0px;
+	margin: 0px;
+}
+
+#buscar-ref {
+	height: 18px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.setor table {
+	text-align: center;
+}
+
+
+#temp-content {
+	display: none;
+}
+
+footer{
+	color: #ffd;
+	height: 44px;
+	background: rgba(51, 51, 51, 0.70);
+	margin: 0px auto;
+	width: 70%;
+	padding-left: 30px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
+
+span {
+  background-color: aqua;
+}
+
+div > span {
+  background-color: yellow;
+}
