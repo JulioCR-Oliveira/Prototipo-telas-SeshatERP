@@ -16,4 +16,4 @@ function redictTo(url) {
 function toggleSearch() {
 	$("#buscar-ref").toggle();
 	$("#search-ref-form").toggle();
-}
+};

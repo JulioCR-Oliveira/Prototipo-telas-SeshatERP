@@ -6,7 +6,6 @@ $("document").ready(function() {
 				<li><a href="index.html">Página inicial</a></li>
 				<li><a href="fichas.html">Fichas Técnicas</a></li>
 				<li><a href="*">Materiais e fornecedores</a></li>
-				<li><a href="*">Financeiro</a></li>
 			</ul>
 		</nav>
 	</header>

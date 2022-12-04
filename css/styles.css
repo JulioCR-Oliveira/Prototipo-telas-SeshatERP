@@ -21,6 +21,10 @@ body {
 	width: 70%;
 }
 
+ul {
+	list-style: none;
+}
+
 #logo {
 	font-size: 36px;
 	text-transform: uppercase;
@@ -88,6 +92,25 @@ body {
 	width: 70%;
 }
 
+.tab{
+	float: left;
+	display: block;
+	padding: 8px;
+	margin-right: 3px;
+	color: black;
+	text-decoration: none;	
+	border: 1px solid rgb(87, 131, 235, 0.7);
+	box-shadow: -1px -1px rgb(87, 131, 235, 0.6);
+}
+
+.selected-tab {
+	background: rgb(87, 131, 235, 0.15);
+}
+
+.unselected-tab {
+	background: rgb(87, 131, 235, 0.30);		
+}
+
 #cabecario_ficha_técnica * {
 	margin: 15px;
 }
@@ -115,6 +138,10 @@ body {
 
 .setor table {
 	text-align: center;
+}
+
+table td {
+	height: 18px;
 }
 
 
