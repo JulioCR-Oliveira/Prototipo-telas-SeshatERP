@@ -105,10 +105,11 @@ ul {
 
 .selected-tab {
 	background: rgb(87, 131, 235, 0.15);
+	cursor: default; 
 }
 
 .unselected-tab {
-	background: rgb(87, 131, 235, 0.30);		
+	background: rgb(87, 131, 235, 0.30);	
 }
 
 #cabecario_ficha_técnica * {
