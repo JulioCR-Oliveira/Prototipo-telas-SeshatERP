@@ -46,7 +46,7 @@ function createAside() {
 				<div class="acesso-rapido-semana">
 					<h4>Semana atual</h4>
 					<ul>
-						<li>Ficha produto 1</li>
+						<li><a href="fichas.html">Ficha LYF5108</a></li>
 						<li>Ficha produto 2</li>
 						<li>Ficha produto 3</li>
 						<li>Ficha produto 4</li>
@@ -57,7 +57,7 @@ function createAside() {
 			<div class="acesso-rapido-semana">
 					<h4>Próxima semana</h4>
 					<ul>
-						<li>Ficha produto 1</li>
+						<li><a href="fichas2.html">Ficha LYF5104</a></li>
 						<li>Ficha produto 2</li>
 						<li>Ficha produto 3</li>
 						<li>Ficha produto 4</li>
