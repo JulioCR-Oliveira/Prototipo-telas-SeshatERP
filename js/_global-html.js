@@ -5,7 +5,7 @@ $("document").ready(function() {
 			<ul>
 				<li><a href="index.html">Página inicial</a></li>
 				<li><a href="fichas.html">Fichas Técnicas</a></li>
-				<li><a href="*">Materiais e fornecedores</a></li>
+				<li><a href="materiais.html">Materiais e fornecedores</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -42,16 +42,16 @@ function createAside() {
 					<br/>
 					<input type="submit" value="Log-in" />
 				</form>
+			</div>
 				
-				<div class="acesso-rapido-semana">
-					<h4>Semana atual</h4>
-					<ul>
-						<li><a href="fichas.html">Ficha LYF5108</a></li>
-						<li>Ficha produto 2</li>
-						<li>Ficha produto 3</li>
-						<li>Ficha produto 4</li>
-					</ul>
-				</div>
+			<div class="acesso-rapido-semana">
+				<h4>Semana atual</h4>
+				<ul>
+					<li><a href="fichas.html">Ficha LYF5108</a></li>
+					<li>Ficha produto 2</li>
+					<li>Ficha produto 3</li>
+					<li>Ficha produto 4</li>
+				</ul>
 			</div>
 			
 			<div class="acesso-rapido-semana">

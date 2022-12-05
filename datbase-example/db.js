@@ -1,16 +1,4 @@
 var database = {
-	setor: [{ 
-			id: 1,
-			nome: "Corte"
-		},
-		{ 
-			id: 2,
-			nome: "Costura e preparação"
-		},
-		{ 
-			id: 3,
-			nome: "Expedição"
-		}],
 	Cidade: [{
 			id: 1
 			nome: "Novo Hamburgo",
@@ -180,14 +168,6 @@ var database = {
 			valor: 67,9,
 			unid_medida: "grosa",
 			conv_unit: 144
-		}],
-	Tipo_produto: [{
-			id: 1,
-			nome: "Calçado"
-		},
-		{
-			id: 2,
-			nome: "Bolsa"
-		}],
+		}]
 	
 }
